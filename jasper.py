@@ -110,7 +110,7 @@ class Jasper(object):
             salutation = "How can I be of service?"
         self.mic.say(salutation)
 
-        conversation = Conversation("JASPER", self.mic, self.config)
+        conversation = Conversation("JASPER", self.mic, self.config) # It's looking like the python app doesn't do any voice processing?
         conversation.handleForever()
 
 if __name__ == "__main__":
