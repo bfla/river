@@ -35,7 +35,7 @@ else:
 # Ah, here's what I want...
 class Jasper(object):
     def __init__(self):
-        self._logger = logging.getLogger(__name__)
+        self._logger = logging.getLogger(__name__) # Create the logger
 
         # Create config dir if it does not exist yet
         if not os.path.exists(jasperpath.CONFIG_PATH):
@@ -114,11 +114,6 @@ class Jasper(object):
         conversation.handleForever()
 
 if __name__ == "__main__":
-
-    print("===========================================================")
-    print(" JASPER The Talking Computer                               ")
-    print(" Copyright 2013 Shubhro Saha & Charlie Marsh               ")
-    print("===========================================================")
 
     logging.basicConfig()
     logger = logging.getLogger()
