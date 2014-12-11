@@ -1,13 +1,8 @@
-jasper-client
-=============
-
 Forked from client code for the Jasper voice computing platform.
 
-## Contact
-
-Jasper was originally created by [Shubhro Saha](http://www.princeton.edu/~saha/) and [Charles Marsh](http://www.princeton.edu/~crmarsh/). Both can be reached by email at [saha@princeton.edu](mailto:saha@princeton.edu) and [crmarsh@princeton.edu](mailto:crmarsh@princeton.edu) respectively. However, for technical support and other problems, please go through the channels mentioned above.
-
 ## License
+
+This project was originally forked from Jasper.  The following license applies to Jasper and NOT to River:
 
 Jasper is released under the MIT license, a permissive free software license that lets you do anything you want with the source code, as long as you provide back attribution and ["don't hold \[us\] liable"](http://choosealicense.com). Note that this licensing only refers to the Jasper client code (i.e.,  the code on GitHub) and not to the disk image itself (i.e., the code on SourceForge).
 
