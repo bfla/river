@@ -9,11 +9,12 @@ import logging
 import yaml
 import argparse
 
+# Who is this client character?  So I guess jasper's real brains are on the device?
 from client import tts, stt, jasperpath, diagnose
 
 # Add jasperpath.LIB_PATH to sys.path
 sys.path.append(jasperpath.LIB_PATH)
-
+# Hm.  Wonder what this is.  Another jasper module?
 from client.conversation import Conversation
 
 parser = argparse.ArgumentParser(description='Jasper Voice Control Center')
@@ -31,7 +32,7 @@ if args.local:
 else:
     from client.mic import Mic
 
-
+# Ah, here's what I want...
 class Jasper(object):
     def __init__(self):
         self._logger = logging.getLogger(__name__)
