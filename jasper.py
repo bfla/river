@@ -1,3 +1,4 @@
+# This looks like the basic app script...
 #!/usr/bin/env python2
 # -*- coding: utf-8-*-
 import os
